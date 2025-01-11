@@ -1,0 +1,121 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+}
+
+.body {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    overflow: hidden;
+    margin: 50px 0;
+    
+}
+
+.centered {
+  position: absolute; 
+  display: flex;
+  justify-content: center;
+  font-size: 60px;
+  font-weight: bold;
+  color: khaki;
+}
+
+.container .titleImage {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.brush 
+.paint 
+.frames {
+    display: flex;
+    justify-content: center;
+}
+
+
+/*All sections*/
+.content {
+    margin: 30px 0;
+    padding: 0 10px;
+}
+.content strong {
+    color: blue;
+    font-weight: bold;
+}
+
+.content h2 {
+    margin: 20px 0;
+}
+
+hr {
+    width: 700px;
+    height: 5px;
+    background-color: lightgray;
+    border-radius: 25px;
+
+}
+
+.lineBreak {
+    display: flex;
+    justify-content: center;
+}
+
+/*Brushes Section*/
+.titleBrushes {
+    font-size: 32px;
+    font-weight: bold;
+    background-color: mediumspringgreen;
+    color: white;
+    padding-left: 10px;
+}
+
+.brushes {
+    margin:10px 0;
+    padding: 0 10px;
+    width: 99%;
+}
+
+/*Frames Section*/
+.titleFrames {
+    font-size: 32px;
+    font-weight: bold;
+    background-color: lightcoral;
+    color: white;
+    padding-left: 10px;
+}
+
+.frames {
+    margin:10px 0;
+    padding: 0 10px;
+    width: 99%;
+}
+
+
+/*Paint Section*/
+.titlePaint {
+    font-size: 32px;
+    font-weight: bold;
+    background-color: skyblue;
+    color: white;
+    padding-left: 10px;
+   
+}
+
+.paint {
+    margin:10px 0;
+    padding: 0 10px;
+    width: 99%;
+}
+
